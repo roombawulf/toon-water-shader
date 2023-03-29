@@ -5,6 +5,5 @@ function HomePage() {
       <Experience />
     )
   }
-
-  export default HomePage
+export default HomePage
   

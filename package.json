@@ -1,7 +1,7 @@
 {
-  "name": "next-three-template",
+  "name": "glass-orb",
   "version": "1.0.0",
-  "description": "a lightweight ready-to-use next-three template",
+  "description": "a glass orb shader",
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
@@ -15,15 +15,14 @@
     "three",
     "react-three",
     "glsl",
-    "shaders",
-    "template"
+    "shaders"
   ],
   "author": "Haris Raza",
   "license": "MIT",
   "dependencies": {
-    "@react-three/drei": "^9.57.3",
+    "@react-three/drei": "^9.58.5",
     "@react-three/fiber": "^8.12.0",
-    "@types/three": "^0.149.0",
+    "@types/three": "^0.150.0",
     "glslify-loader": "^2.0.0",
     "next": "^13.2.4",
     "raw-loader": "^4.0.2",
