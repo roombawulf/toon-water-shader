@@ -42,14 +42,11 @@ function Water(){
         water.current.material.u_time = clock.elapsedTime
     })
 
-    useEffect(() => {
-        console.log(camera.projectionMatrixInverse)
-    })
     return(
         <mesh 
             rotation={[-Math.PI/2, 0, 0]} 
-            scale={3.35}
-            position={[-0.1,0.2,0]}
+            scale={8}
+            position={[0,-0.5,0]}
             ref={water} 
         >
             <planeGeometry args={[1,1, 128, 128]}/>

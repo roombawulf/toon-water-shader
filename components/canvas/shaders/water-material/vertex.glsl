@@ -7,10 +7,10 @@ uniform float u_time;
 void main() {
 
     vec3 pos = position;
-    pos.z = 0.01 * sin(15.0 * pos.x + u_time);
 
+    pos.z = 0.03 * sin(5.0 * pos.y + u_time);
 
-    v_position = vec4(position, 1.0);
+    v_position = vec4(pos, 1.0);
     vec4 worldPosition = modelMatrix * vec4(pos, 1.0);
     v_worldPosition = worldPosition;
 
