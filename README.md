@@ -4,4 +4,4 @@ A stylized water shader built in [THREE.js](https://threejs.org/). This is a sma
 
 ## Demo
 
-[![demo link](screenshots/demo.png)](https://hraza.dev)
+[![demo link](screenshots/demo.png)](https://toon-water-shader.vercel.app/)
