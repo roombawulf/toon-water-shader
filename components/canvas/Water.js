@@ -1,6 +1,6 @@
 import { shaderMaterial, useFBO, useTexture, useHelper } from "@react-three/drei"
 import { extend, useFrame, useThree } from "@react-three/fiber"
-import { useEffect, useRef } from "react"
+import { useRef } from "react"
 import * as THREE from 'three'
 import { useControls } from "leva"
 
