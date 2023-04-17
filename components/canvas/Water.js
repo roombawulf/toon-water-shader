@@ -69,10 +69,7 @@ function Water(){
         water.current.material.u_time = clock.elapsedTime
     })
 
-    useEffect(() => {console.log(light)})
-
     useHelper(light, DirectionalLightHelper)
-
     return(
         <>
         <mesh 
@@ -80,7 +77,7 @@ function Water(){
             position={[-0.2,0.4,-0.62]}
             ref={water} 
         >
-            <planeGeometry args={[3, 3.5, 512, 512]}/>
+            <planeGeometry args={[3, 3.5, 128, 128]}/>
             <waterMaterial 
                 key={WaterMaterial.key}
                 u_dudvTexture={dudvTexture}
