@@ -9,7 +9,7 @@ function Experience(){
         <div className="canvas-container">
             <Canvas camera={{position: [0,2,2]}} shadows='soft'>
                 <color attach="background" args={['#071416']} />
-                <Environment preset="dawn"/>
+                <Environment files={"industrial_sunset_puresky_1k.hdr"} />
                 <ambientLight intensity={0.1} color={'white'}/>
                 <Models />
                 <Water />
